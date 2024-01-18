@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width=device-width,
+    initial-scale=1">  
+    <title>Alveo Ayala Land</title>
+    <link rel = "Stylesheet" type = "text/css" href="style.css">
+    
+
+  <!--boxicons link-->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+  <!--google fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+<body>
+  
+  <!--Header-->
+  <header class="header" id="home">
+    <a href="index.html" class ="logo"><span>A</span>lveo</a>
+
+    <ul class="navbar">
+      <li><a href ="index.html" class="active">Home</a></li>
+      <li><a href ="contact.html">Contact</a></li>
+      <li><a href ="about.html">About Us</a></li>
+
+    </ul>
+      <div class="menu-btn">
+        <span>Menu</span>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+
+  </header>
+  
+  <!--Home-->
+  <section class="home" id="home">
+    <div class="home-text">
+      <span>Sales Manager</span>
+      <h1>Khrist Diokno</h1>
+      <p>I build and lead a team of sales people to help drive revenue,
+        also I motivate them to generate leads, build client relationships,
+        also set targets to hit or exceed revenue forecasts, and ultimately meet
+        what a client needs. Managing recruiting, object setting, coaching and performance
+        monitoring of sales representatives is what I do best.
+      </p>
+
+        <div class="main-btn">
+          <a href="contact.html" class="btn">Contact me</a>
+        </div>       
+    </div>
+
+    <div class="home-img">
+      <img src="images/home.png" alt="">
+     
+
+    </div>
+
+  </section>
+
+
+  <div class="share">
+    <p>Check out : </p>
+    
+    <div class="social">
+      <a href="https://www.facebook.com/alveolandkhristarvisundiokno?mibextid=REkXMA" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="https://www.instagram.com/alveoland.khristdiokno/?igsh=MXY1Y3E0OWc5ZmQxOQ%3D%3D&fbclid=IwAR2ME6NWKUGsZNBuASWgnN5g5MkNpVWoJgrPeqD0aIGJNogCs6GVOaNnEHU" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+      <a href="https://www.facebook.com/khristarvisundiokno14?mibextid=REkXMA" target="_blank"><i class='bx bxl-facebook-square' ></i></a>
+
+    </div>
+  </div>
+   <!-- Footer Section -->
+   <footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2024 Jhun Kenneth Balmediano. All rights reserved.</p>
+    </div>
+</footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navbarLinks = document.querySelectorAll(".navbar a");
+  
+      navbarLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+          // Remove "active" class from all links
+          navbarLinks.forEach(function (otherLink) {
+            otherLink.classList.remove("active");
+          });
+  
+          // Add "active" class to the clicked link
+          link.classList.add("active");
+        });
+      });
+    });
+  </script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <!--Custom js file link-->
+  <script src="js/js.js"></script>
+  
+
+
+</body>
+</html>
